@@ -1,0 +1,13 @@
+.todo-list {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+}
+
+@media screen and (max-width: 768px) {
+  .todo-list {
+    width: initial;
+  }
+}
